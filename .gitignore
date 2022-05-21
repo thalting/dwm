@@ -1,0 +1,8 @@
+*.orig
+*.rej
+patches
+util.o
+dwm
+dwmc
+dwm.o
+drw.o
