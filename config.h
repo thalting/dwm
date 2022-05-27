@@ -1,15 +1,15 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static unsigned int borderpx  = 4;        /* border pixel of windows */
-static unsigned int gappx     = 10;       /* gaps between windows */
+static unsigned int borderpx  = 2;        /* border pixel of windows */
+static unsigned int gappx     = 0;        /* gaps between windows */
 static unsigned int snap      = 32;       /* snap pixel */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static int focusonwheel       = 0;
-static int vertpad            = 10;       /* vertical padding of bar */
-static int sidepad            = 10;       /* horizontal padding of bar */
-static int user_bh            = 22;       /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static int vertpad            = 0;        /* vertical padding of bar */
+static int sidepad            = 0;        /* horizontal padding of bar */
+static int user_bh            = 0;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static char font[]            = "monospace:size=10";
 static const char *fonts[]    = { font };
 
