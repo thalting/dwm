@@ -1,9 +1,7 @@
 *.orig
 *.rej
+*.o
 config.h
 patches
-util.o
 dwm
 dwmc
-dwm.o
-drw.o
