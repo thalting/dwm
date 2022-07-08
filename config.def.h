@@ -9,7 +9,7 @@ static int topbar             = 1;        /* 0 means bottom bar */
 static int focusonwheel       = 0;
 static int vertpad            = 0;        /* vertical padding of bar */
 static int sidepad            = 0;        /* horizontal padding of bar */
-static int user_bh            = 0;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
+static int user_bh            = 2;        /* 2 is the default spacing around the bar's font */
 static char font[]            = "monospace:size=10";
 static const char *fonts[]    = { font };
 
