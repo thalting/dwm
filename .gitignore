@@ -5,3 +5,4 @@ config.h
 patches
 dwm
 dwmc
+.ccls-cache
