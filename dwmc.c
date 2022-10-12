@@ -10,7 +10,7 @@
 void
 usage(void)
 {
-    die("dwmc <signame> [<type]> <value>]\n");
+    die("dwmc <signame> [<type> <value>]\n");
 }
 
 void
