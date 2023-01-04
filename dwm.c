@@ -1722,6 +1722,7 @@ tile(Monitor *m)
 		mw = m->ww;
 		ns = 1;
 	}
+	snprintf(m->ltsymbol, sizeof m->ltsymbol, "[%d]=", m->nmaster); /* override layout symbol */
 	for(i = 0, my = ty = gappx, c = nexttiled(m->clients); c; c = nexttiled(c->next), i++)
 		if (i < m->nmaster) {
 			h = (m->wh - my) / (MIN(n, m->nmaster) - i) - gappx;
