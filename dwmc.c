@@ -17,7 +17,7 @@ void
 fsignal(char *signame, char *type, char *value)
 {
     char command[256] = "";
-    sprintf(command, "xsetroot -name \"fsignal:%s %s %s\"", signame, type, value);
+    sprintf(command, "dwm -s \"fsignal:%s %s %s\"", signame, type, value);
     execl("/bin/sh", "sh", "-c", command, (char *)NULL);
 }
 
